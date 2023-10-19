@@ -9,4 +9,4 @@ df = conn.query('SELECT * FROM users;', ttl="10m")
 
 # Print results.
 for row in df.itertuples():
-    st.write(f"{row.name} has ")
+    st.write(f"{row.name} has 1 ")
